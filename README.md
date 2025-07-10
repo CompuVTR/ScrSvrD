@@ -1,2 +1,4 @@
-# ScrSvrD
-Disable ScrSvr
+---
+## Small App to Disable Screen Saver and System Sleep ##
+---
+
