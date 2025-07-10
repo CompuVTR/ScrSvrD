@@ -4,11 +4,9 @@
 #define IDM_ABOUT                       104
 #define IDS_APPTOOLTIP                  104
 #define IDM_EXIT                        105
-#define IDI_LRG							107
-#define IDI_SML         				108
-#define IDC_VTRDSS						109
-#define ID_SYSTRAYMENU_ENABLE           32774
-#define ID_SYSTRAYMENU_DISABLE          32775
+#define IDI_LRG							            107
+#define IDI_SML         				        108
+#define IDC_VTRDSS						          109
 #define IDM_DISABLE                     32778
 #define IDM_ENABLE                      32779
 #define IDM_SPRT                        32783
