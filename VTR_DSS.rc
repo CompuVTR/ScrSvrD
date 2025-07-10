@@ -1,0 +1,179 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "VTR_rsrc.h"
+#include <windows.h>
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_LRG                 ICON                    "VTR_ICN.ico"
+
+IDI_SML                 ICON                    "VTR_ICN.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x0L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "CompuVTR"
+            VALUE "FileDescription", "Disable Screen Saver and System Sleep"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "VTR_DSS"
+            VALUE "LegalCopyright", "\xA9 2025 CompuVTR. All Rights Reserved"
+            VALUE "OriginalFilename", "VTR_DSS.exe"
+            VALUE "ProductName", "Disable ScrSvr"
+            VALUE "ProductVersion", "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_VTRDSS MENU
+BEGIN
+    POPUP "SysTrayMenu"
+    BEGIN
+        MENUITEM "&Enable Screen Saver",        IDM_ENABLE
+        MENUITEM "&Disable Screen Saver",       IDM_DISABLE
+        MENUITEM "&About ...",                  IDM_ABOUT
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_EXIT
+        MENUITEM "SPRT",                        IDM_SPRT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 100, 100, 196, 70
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 14, "Arial", 0, 0, 0x0
+BEGIN
+    ICON            IDI_LRG,IDC_MYICON,20,20,20,20
+    LTEXT           "Screen Saver Disable Version 1.0",IDC_STATIC,45,10,105,12,SS_NOPREFIX
+    LTEXT           "\xA9 2025 CompuVTR",IDC_STATIC,66,23,62,9
+    DEFPUSHBUTTON   "OK",IDOK,82,52,30,11,BS_CENTER | BS_VCENTER
+    LTEXT           "Written By Eng. Victor Michael",IDC_STATIC,51,35,94,12
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        VERTGUIDE, 98
+        HORZGUIDE, 35
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_APP_TITLE           "VTRDSS"
+    IDS_APPTOOLTIP          "Disable Screen Saver and System Sleep"
+    IDC_VTRDSS              "Disable ScrSvr"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
