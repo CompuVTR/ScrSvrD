@@ -1,0 +1,2 @@
+# ScrSvrD
+Disable ScrSvr
